@@ -1,0 +1,26 @@
+.navbar {
+    height: 12vh;
+    padding: 10px 30px;
+    .navbar__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav__logo {
+            font-size: 2rem;
+            color: #3813e2;
+            font-weight: 800;
+        }
+        .nav__menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            li {
+                cursor: pointer;
+            }
+        }
+        .nav__mbMenu {
+            display: none;
+        }
+    }
+}
